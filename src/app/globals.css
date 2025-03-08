@@ -17,6 +17,9 @@ body {
 .shadow1 {
   box-shadow: rgba(0, 0, 255, 0.7) 0px 2px 6px;
 }
+.shadow2 {
+  box-shadow: rgba(0, 140, 200, 0.5) 0px -20px 100px;
+}
 
 .bgcolor2 {
   position: relative;

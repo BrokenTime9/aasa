@@ -8,7 +8,7 @@ const Review = () => {
       <div className="w-[80%] mx-auto my-4  rounded-md custom-shadow-blue ">
         <Image src={image} alt={"video"} priority />
       </div>
-      <div className="flex flex-col gap-4">
+      <div className="flex gap-4">
         <ReviewBox
           name={"Aditi Verma"}
           age={21}
