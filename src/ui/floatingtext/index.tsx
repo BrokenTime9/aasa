@@ -50,7 +50,7 @@ const WordGrid = () => {
       {words.map((word, index) => (
         <span
           key={index}
-          className={`font-semibold ${colors[index % colors.length]} ${fontSizes[index % fontSizes.length]} p-2`}
+          className={`font-semibold ${colors[index % colors.length]} ${fontSizes[index % fontSizes.length]}`}
         >
           {word}
         </span>

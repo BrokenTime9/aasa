@@ -47,7 +47,7 @@ const CourseSection = () => {
         text={"Community Access – Network with fellow artists."}
         icon={<MessageCircle size={36} className="self-center" />}
       />
-      <div className="w-[70%]">
+      <div className="w-[80%]">
         <Button text={"Book Now at ₹49"} />
       </div>
     </div>
