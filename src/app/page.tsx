@@ -5,6 +5,7 @@ import CourseSection from "@/components/CourseSection";
 import Review from "@/components/Review";
 import HoveringText from "@/components/HoveringText";
 import Extras from "@/components/Extras";
+import EnrollSection from "@/components/EnrollSection";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Review />
       <HoveringText />
       <Extras />
+      <EnrollSection />
     </div>
   );
 }
