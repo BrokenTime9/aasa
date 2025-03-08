@@ -29,7 +29,6 @@ const words = [
   "Home Services",
 ];
 
-// Tailwind color classes for variety
 const colors = [
   "text-red-500",
   "text-green-500",
@@ -43,7 +42,6 @@ const colors = [
   "text-lime-500",
 ];
 
-// Random font sizes
 const fontSizes = ["text-lg", "text-xl", "text-2xl"];
 
 const WordGrid = () => {
