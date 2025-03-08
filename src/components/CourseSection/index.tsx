@@ -13,7 +13,7 @@ import {
 const CourseSection = () => {
   return (
     <div className="flex flex-col items-center gap-4">
-      <h2 className="text-2xl py-3 font-semibold bg-gradient-to-r from-[#4b00c8] via-[#6508ba] to-[#d50be4] bg-clip-text text-transparent inline-block">
+      <h2 className="text-xl py-3 font-semibold bg-gradient-to-r from-[#4b00c8] via-[#6508ba] to-[#d50be4] bg-clip-text text-transparent inline-block">
         With This Course, You Get:
       </h2>
 
@@ -47,7 +47,9 @@ const CourseSection = () => {
         text={"Community Access – Network with fellow artists."}
         icon={<MessageCircle size={36} className="self-center" />}
       />
-      <Button text={"Book Now at ₹49"} />
+      <div className="w-[70%]">
+        <Button text={"Book Now at ₹49"} />
+      </div>
     </div>
   );
 };
