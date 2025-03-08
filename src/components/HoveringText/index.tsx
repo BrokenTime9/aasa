@@ -1,3 +1,5 @@
+import FloatingText from "@/ui/floatingtext";
+
 const HoveringText = () => {
   return (
     <div className="flex flex-col items-center">
@@ -7,6 +9,8 @@ const HoveringText = () => {
       <h3 className="text-lg">
         Everybody is fond of Digital Art! You need it too.
       </h3>
+
+      <FloatingText />
     </div>
   );
 };
