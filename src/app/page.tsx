@@ -7,6 +7,7 @@ import HoveringText from "@/components/HoveringText";
 import Extras from "@/components/Extras";
 import EnrollSection from "@/components/EnrollSection";
 import Fnq from "@/components/Fnq";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Extras />
       <EnrollSection />
       <Fnq />
+      <Footer />
     </div>
   );
 }

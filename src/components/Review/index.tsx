@@ -6,7 +6,7 @@ const Review = () => {
   return (
     <div className="flex flex-col">
       <div className="w-[80%] mx-auto my-4  rounded-md custom-shadow-blue ">
-        <Image src={image} alt={"video"} />
+        <Image src={image} alt={"video"} priority />
       </div>
       <div className="flex flex-col gap-4">
         <ReviewBox

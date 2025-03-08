@@ -12,7 +12,7 @@ const Intro = () => {
         A 4-Week Course Designed for Beginners & Enthusiasts!
       </h2>
       <div className="w-[99%] mx-auto py-6">
-        <Image src={hero1} alt="art image" />
+        <Image src={hero1} alt="art image" priority />
       </div>
       <div className="px-4">
         <p className="text-md font-semibold">
