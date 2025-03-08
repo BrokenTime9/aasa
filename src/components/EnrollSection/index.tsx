@@ -4,7 +4,7 @@ import HollowBox from "@/ui/hollowBox";
 const EnrollSection = () => {
   return (
     <div className="flex flex-col items-center gap-4 text-center">
-      <h1>Enroll Now for ₹7,999</h1>
+      <h1 className="text-2xl font-semibold">Enroll Now for ₹7,999</h1>
       <div className="flex flex-col gap-2">
         <HollowBox text={"Secure Your Spot for Just ₹79"} />
 
