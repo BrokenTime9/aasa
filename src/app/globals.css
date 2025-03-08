@@ -1,7 +1,9 @@
 @import "tailwindcss";
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .bgcolor1 {
@@ -11,4 +13,30 @@ body {
     rgba(101, 8, 186, 1) 43%,
     rgba(213, 11, 228, 1) 100%
   );
+}
+
+.bgcolor2 {
+  position: relative;
+  z-index: 1;
+}
+
+.bgcolor2::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 110%;
+  background: radial-gradient(
+    circle,
+    rgba(163, 253, 255, 0.2) 0%,
+    rgba(110, 239, 255, 0.5) 54%,
+    rgba(255, 255, 255, 0.2) 100%
+  );
+  filter: blur(60px);
+  z-index: -1;
+}
+
+.custom-shadow {
+  box-shadow:
+    0px 5px 0px rgba(59, 130, 246, 0.5),
+    0px 6px 19px rgba(59, 130, 246, 0.5);
 }

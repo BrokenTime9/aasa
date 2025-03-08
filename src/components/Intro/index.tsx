@@ -2,9 +2,9 @@ import Button from "@/ui/button";
 import Image from "next/image";
 import hero1 from "@/../public/4505770.jpg";
 
-const Hero1 = () => {
+const Intro = () => {
   return (
-    <div className="flex flex-col text-center mt-12 gap-4">
+    <div className="flex flex-col text-center gap-4">
       <h1 className="text-3xl font-semibold bg-gradient-to-r from-[#4b00c8] via-[#6508ba] to-[#d50be4] bg-clip-text text-transparent inline-block">
         Master the Art of Digital Illustration
       </h1>
@@ -25,11 +25,11 @@ const Hero1 = () => {
       <div className="flex justify-center p-2">
         <Button text={"Secure Your Spot for Just ₹79"} />
       </div>
-      <p className="text-xl">
+      <p className="text-xl font-semibold">
         Use a coupon code within 15 minutes to unlock a special bonus pack!
       </p>
     </div>
   );
 };
 
-export default Hero1;
+export default Intro;
