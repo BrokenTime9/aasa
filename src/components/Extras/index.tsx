@@ -16,7 +16,9 @@ const Extras = () => {
   return (
     <div className="flex flex-col gap-4 pt-8 items-center">
       <div className="pb-4">
-        <h2 className="text-3xl font-semibold">Not Satisfied Yet?</h2>
+        <h2 className="text-3xl font-semibold bg-gradient-to-r from-black to-gray-500 bg-clip-text text-transparent">
+          Not Satisfied Yet?
+        </h2>
         <h3 className="text-lg">We got you! Here are few extra features</h3>
       </div>
       <SideBox

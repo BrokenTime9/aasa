@@ -4,7 +4,7 @@ import Card from "@/ui/cards";
 const MissOutSection = () => {
   return (
     <div className="flex flex-col gap-4 items-center text-center">
-      <h3 className="text-2xl py-6 font-semibold">
+      <h3 className="text-2xl py-6 font-semibold bg-gradient-to-r from-black to-gray-500 bg-clip-text text-transparent">
         Without Proper Training, You Might:
       </h3>
       <Card

@@ -4,7 +4,9 @@ import HollowBox from "@/ui/hollowBox";
 const EnrollSection = () => {
   return (
     <div className="flex flex-col items-center gap-4 text-center">
-      <h1 className="text-3xl font-semibold py-6">Enroll Now for ₹7,999</h1>
+      <h1 className="text-3xl font-semibold py-6 bg-gradient-to-r from-black to-gray-500 bg-clip-text text-transparent">
+        Enroll Now for ₹7,999
+      </h1>
       <div className="flex flex-col gap-3">
         <HollowBox text={"Secure Your Spot for Just ₹79"} />
 
