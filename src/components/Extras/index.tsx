@@ -14,9 +14,11 @@ import {
 
 const Extras = () => {
   return (
-    <div className="flex flex-col gap-4 items-center">
-      <h2 className="text-3xl font-semibold">Not Satisfied Yet?</h2>
-      <h3 className="text-lg">We got you! Here are few extra features</h3>
+    <div className="flex flex-col gap-4 pt-8 items-center">
+      <div className="pb-4">
+        <h2 className="text-3xl font-semibold">Not Satisfied Yet?</h2>
+        <h3 className="text-lg">We got you! Here are few extra features</h3>
+      </div>
       <SideBox
         text={"Sketching Basics – Shape, form, and proportion fundamentals."}
         icon={<Pencil size={36} className="self-center" />}
@@ -61,7 +63,7 @@ const Extras = () => {
         text={"Live Mentorship – Weekly Q&A sessions with industry pros."}
         icon={<Users size={36} className="self-center" />}
       />
-      <div className="w-[70%]">
+      <div className="w-[70%] pt-3 pb-6">
         <Button text={"Book Now for ₹79"} />
       </div>
     </div>

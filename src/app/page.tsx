@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div className="w-[98dvw] text-center mx-auto flex flex-col gap-8 justify-around p-3">
+    <div className="w-[98dvw] text-center mx-auto flex flex-col gap-8 justify-around p-2">
       <Navbar />
       <Intro />
       <MissOutSection />

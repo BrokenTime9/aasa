@@ -30,16 +30,22 @@ const words = [
 ];
 
 const colors = [
+  "text-black",
   "text-red-500",
-  "text-green-500",
+  "text-black",
+  "text-pink-500",
   "text-blue-500",
   "text-yellow-500",
+  "text-black",
+  "text-blue-500",
+  "text-yellow-500",
+  "text-orange-500",
+  "text-gray-500",
+  "text-blue-700",
   "text-purple-500",
   "text-pink-500",
   "text-orange-500",
-  "text-teal-500",
-  "text-cyan-500",
-  "text-lime-500",
+  "text-gray-500",
 ];
 
 const fontSizes = ["text-lg", "text-xl", "text-2xl"];

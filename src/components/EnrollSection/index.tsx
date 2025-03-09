@@ -4,8 +4,8 @@ import HollowBox from "@/ui/hollowBox";
 const EnrollSection = () => {
   return (
     <div className="flex flex-col items-center gap-4 text-center">
-      <h1 className="text-2xl font-semibold">Enroll Now for ₹7,999</h1>
-      <div className="flex flex-col gap-2">
+      <h1 className="text-3xl font-semibold py-6">Enroll Now for ₹7,999</h1>
+      <div className="flex flex-col gap-3">
         <HollowBox text={"Secure Your Spot for Just ₹79"} />
 
         <HollowBox
@@ -16,12 +16,14 @@ const EnrollSection = () => {
 
         <HollowBox text={"Extra Live Q&A Session with Mentors"} />
       </div>
-      <p>We offer everything you need at ₹7,999 but wait… &#x1F440;</p>
+      <p className="p-2 pt-4">
+        We offer everything you need at ₹7,999 but wait… &#x1F440;
+      </p>
       <p className="bg-gradient-to-r  from-[#fce5cd]  via-[#e9d5ff] to-[#bae6fd] p-2 rounded-md text-center">
         Use a Special Code & Unlock a Game-Changing Discount to avail same
         course in a discounted price!
       </p>
-      <div className="w-[70%]">
+      <div className="w-[70%] py-6 pb-4">
         <Button text={"Book Now for ₹79"} />
       </div>
     </div>
