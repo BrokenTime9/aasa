@@ -1,4 +1,3 @@
-import Button from "@/ui/button";
 import Image from "next/image";
 import hero1 from "@/../public/4505770.jpg";
 
