@@ -5,7 +5,7 @@ import Image from "next/image";
 const Review = () => {
   return (
     <div className="flex flex-col">
-      <div className="w-[90%] mx-auto  rounded-md custom-shadow-blue ">
+      <div className="w-[90%] mx-auto  rounded-md shadow2 ">
         <Image src={image} alt={"video"} priority />
       </div>
       <div className="flex flex-col">
